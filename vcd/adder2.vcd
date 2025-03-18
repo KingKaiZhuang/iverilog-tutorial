@@ -1,0 +1,311 @@
+$date
+	Tue Mar 18 09:12:44 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module add2 $end
+$var wire 2 ! a [1:0] $end
+$var wire 2 " b [1:0] $end
+$var wire 2 # s [1:0] $end
+$var wire 1 $ c0 $end
+$var wire 1 % c $end
+$scope module U1 $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 $ c $end
+$var wire 1 ( s $end
+$upscope $end
+$scope module U2 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 % c $end
+$var wire 1 $ ci $end
+$var wire 1 + s $end
+$upscope $end
+$upscope $end
+$scope module test $end
+$var wire 2 , s [1:0] $end
+$var wire 1 - c $end
+$var reg 2 . a [1:0] $end
+$var reg 2 / b [1:0] $end
+$var integer 32 0 i [31:0] $end
+$scope module U1 $end
+$var wire 2 1 a [1:0] $end
+$var wire 2 2 b [1:0] $end
+$var wire 2 3 s [1:0] $end
+$var wire 1 4 c0 $end
+$var wire 1 - c $end
+$scope module U1 $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 4 c $end
+$var wire 1 7 s $end
+$upscope $end
+$scope module U2 $end
+$var wire 1 8 a $end
+$var wire 1 9 b $end
+$var wire 1 - c $end
+$var wire 1 4 ci $end
+$var wire 1 : s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x:
+09
+08
+x7
+06
+05
+x4
+bx 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+x-
+bx ,
+x+
+z*
+z)
+x(
+z'
+z&
+x%
+x$
+bx #
+bz "
+bz !
+$end
+#1
+0-
+bx0 ,
+bx0 3
+07
+04
+#2
+b0 ,
+b0 3
+0:
+#10
+15
+b1 .
+b1 1
+b1 0
+#11
+b1 ,
+b1 3
+17
+#20
+05
+18
+b10 .
+b10 1
+b10 0
+#21
+1:
+b10 ,
+b10 3
+07
+#30
+15
+b11 .
+b11 1
+b11 0
+#31
+b11 ,
+b11 3
+17
+#40
+16
+05
+08
+b1 /
+b1 2
+b0 .
+b0 1
+b100 0
+#41
+b1 ,
+b1 3
+0:
+#50
+15
+b1 .
+b1 1
+b101 0
+#51
+b0 ,
+b0 3
+07
+14
+#52
+b10 ,
+b10 3
+1:
+#60
+05
+18
+b10 .
+b10 1
+b110 0
+#61
+1-
+0:
+b1 ,
+b1 3
+17
+04
+#62
+0-
+b11 ,
+b11 3
+1:
+#70
+15
+b11 .
+b11 1
+b111 0
+#71
+b10 ,
+b10 3
+07
+14
+#72
+1-
+b0 ,
+b0 3
+0:
+#80
+06
+19
+05
+08
+b10 /
+b10 2
+b0 .
+b0 1
+b1000 0
+#81
+04
+#82
+0-
+b10 ,
+b10 3
+1:
+#90
+15
+b1 .
+b1 1
+b1001 0
+#91
+b11 ,
+b11 3
+17
+#100
+05
+18
+b10 .
+b10 1
+b1010 0
+#101
+0:
+1-
+b0 ,
+b0 3
+07
+#110
+15
+b11 .
+b11 1
+b1011 0
+#111
+b1 ,
+b1 3
+17
+#120
+16
+05
+08
+b11 /
+b11 2
+b0 .
+b0 1
+b1100 0
+#121
+b11 ,
+b11 3
+1:
+0-
+#130
+15
+b1 .
+b1 1
+b1101 0
+#131
+b10 ,
+b10 3
+07
+14
+#132
+1-
+b0 ,
+b0 3
+0:
+#140
+05
+18
+b10 .
+b10 1
+b1110 0
+#141
+1:
+b11 ,
+b11 3
+17
+04
+#142
+b1 ,
+b1 3
+0:
+#150
+15
+b11 .
+b11 1
+b1111 0
+#151
+b0 ,
+b0 3
+07
+14
+#152
+b10 ,
+b10 3
+1:
+#160
+06
+09
+05
+08
+b0 /
+b0 2
+b0 .
+b0 1
+b10000 0
+#161
+0-
+04
+#162
+b0 ,
+b0 3
+0:
